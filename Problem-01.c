@@ -1,14 +1,13 @@
 #include<stdio.h>
-int main() {
-    int a, b, sum;
-    scanf("%d%d", &a, &b);
-    sum = a + b;
+int main () {
+    int A,B,sum;
+    scanf("%d%d", &A, &B);
+    sum = A + B;
     if (sum%2==0) {
-    printf("even\n");
+        printf("EVEN\n");
     }
     else {
-       printf ("odd\n");
+        printf("ODD\n");
     }
     return 0;
-
 }
